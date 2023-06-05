@@ -1374,6 +1374,17 @@ files = [
 ]
 
 [[package]]
+name = "colored"
+version = "1.4.4"
+description = "Simple library for color and formatting to terminal"
+category = "dev"
+optional = false
+python-versions = "*"
+files = [
+    {file = "colored-1.4.4.tar.gz", hash = "sha256:04ff4d4dd514274fe3b99a21bb52fb96f2688c01e93fba7bef37221e7cb56ce0"},
+]
+
+[[package]]
 name = "coloredlogs"
 version = "15.0.1"
 description = "Colored terminal output for Python's logging module"
@@ -9267,6 +9278,22 @@ files = [
 mpmath = ">=0.19"
 
 [[package]]
+name = "syrupy"
+version = "4.0.2"
+description = "Pytest Snapshot Test Utility"
+category = "dev"
+optional = false
+python-versions = ">=3.8.1,<4"
+files = [
+    {file = "syrupy-4.0.2-py3-none-any.whl", hash = "sha256:dfd1f0fad298eee753de4f2471d4346412c4435885c4b7beea648d4934c6620a"},
+    {file = "syrupy-4.0.2.tar.gz", hash = "sha256:3c75ab6866580679b2cb9abe78e74c3e2011fffc6333651c6beb2a78a716ab80"},
+]
+
+[package.dependencies]
+colored = ">=1.3.92,<2.0.0"
+pytest = ">=7.0.0,<8.0.0"
+
+[[package]]
 name = "tabulate"
 version = "0.9.0"
 description = "Pretty-print tabular data"
@@ -11241,4 +11268,4 @@ text-helpers = ["chardet"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.8.1,<4.0"
-content-hash = "190059b07b111e19ec5b516be227b81728163fee14928c92cba2c0212d35ead0"
+content-hash = "0c5816cc9a2ce059a85bfc6bdf9eb9b770a005f9353fff348d5efb4154a59444"
